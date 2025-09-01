@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  color: #c4e0f9;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #2d3047, #1a1b2f);
+  padding: 20px;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+.main-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 500px;
+
+  gap: 1rem;
+}
+.rock {
+  height: 100px;
+  width: 100px;
+  background-image: url(rock.PNG);
+  background-size: cover;
+  border-radius: 50%;
+}
+.rock:hover {
+  border: 3px solid;
+  cursor: pointer;
+}
+.paper {
+  height: 100px;
+  width: 100px;
+  background-image: url(paper.PNG);
+  background-size: cover;
+  border-radius: 50%;
+}
+.paper:hover {
+  border: 3px solid;
+  cursor: pointer;
+}
+.scissor {
+  height: 100px;
+  width: 100px;
+  background-image: url(sissor.PNG);
+  background-size: cover;
+  border-radius: 50%;
+}
+.scissor:hover {
+  border: 3px solid;
+  cursor: pointer;
+}
+.score {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  gap: 2rem;
+}
+.user {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.comp {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#msg {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #2f323a;
+  color: white;
+  text-align: center;
+}
+.reset-container {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #81171b;
+  color: white;
+}
+.reset-container:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+#reset {
+  font-size: 1.5rem;
+}
+.hand {
+  display: flex;
+  justify-content: space-evenly;
+}
+.first-hand-paper {
+  height: 50px;
+  width: 40px;
+  transform: rotate(90deg);
+
+  background-image: url("paper-hand.PNG");
+  background-size: contain;
+}
+.second-hand-paper {
+  height: 50px;
+  width: 40px;
+  transform: rotate(270deg);
+
+  background-image: url("paper-hand.PNG");
+  background-size: cover;
+}
+.first-hand-rock {
+  height: 60px;
+  width: 40px;
+  transform: rotate(90deg);
+
+  background-image: url("rock.jpg");
+  background-size: contain;
+}
+.second-hand-rock {
+  height: 60px;
+  width: 40px;
+  transform: rotate(270deg);
+
+  background-image: url("rock.jpg");
+  background-size: contain;
+}
+.first-hand-scissor {
+  height: 50px;
+  width: 40px;
+  transform: rotate(90deg);
+
+  background-image: url("scissor-hand-removebg-preview.png");
+  background-size: contain;
+}
+.second-hand-scissor {
+  height: 50px;
+  width: 40px;
+  transform: rotate(270deg);
+
+  background-image: url("scissor-hand-removebg-preview.png");
+  background-size: contain;
+}
+.gap {
+  height: 50px;
+  width: 30px;
+
+}

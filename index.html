@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissor</h1>
+    <div class="main-content">
+        <div class="options">
+            <div onclick="userinput('rock')" class="rock"></div>
+            <div onclick="userinput('paper')" class="paper"></div>
+            <div onclick="userinput('scissor')" class="scissor"></div>
+
+        </div>
+        <div class="gamebox">
+            <div class="msg-container">
+                <div class="hand">
+                    <div class="first"></div>
+                    <div class="gap"></div>
+                    <div class="second"></div>
+                </div>
+            </div>
+            <p id="msg">Play Your Move</p>
+        </div>
+
+        <div class="score">
+            <div class="user">
+                <p class="user-score">0</p>
+                <p>You</p>
+
+            </div>
+            <div class="comp">
+                <p class="comp-score">0</p>
+                <p>Comp</p>
+
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="reset-container">
+                <p id="reset">Reset score</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
