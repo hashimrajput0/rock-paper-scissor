@@ -4,8 +4,8 @@ let userScore = 0;
 let compScore = 0;
 let user_score = document.querySelector(".user-score");
 let comp_score = document.querySelector(".comp-score");
-userScore = localStorage.getItem("userscore") || 0;
-compScore = localStorage.getItem("compscore") || 0;
+userScore = parseInt(localStorage.getItem("userscore")) || 0;
+compScore = parseInt(localStorage.getItem("compscore")) || 0;
 user_score.innerText = localStorage.getItem("userscore");
 comp_score.innerText = localStorage.getItem("compscore");
 
